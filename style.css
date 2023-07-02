@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+}
+
+#minha_foto {
+  width: 80px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+#titulo {
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  margin-left: 20px;
+  color: white;
+}
+
+#cabecalho ul {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+#cabecalho li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#cabecalho a {
+  color: white;
+}
+
+#cabecalho a[href="#licoes_aprendidas"]:hover {
+  color: green;
+}
+
+#cabecalho a[href="#licoes_a_aprender"]:hover {
+  color: red;
+}
+
+main {
+  margin-top: 110px;
+}
+
+.container-listas {
+  width: 60%;
+  margin: auto;
+}
+
+.listas {
+  width: 400px;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.listas li {
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.listas ul,
+ol {
+  list-style: none;
+  border: 1px solid black;
+}
+
+.listas ol {
+  background-color: green;
+}
+
+.listas ul {
+  background-color: red;
+}
+
+.lado-esquerdo,
+.lado-direito {
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.lado-direito p {
+  line-height: 38px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: black;
+}
+
+li {
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", serif;
+  margin-bottom: 10px;
+}
